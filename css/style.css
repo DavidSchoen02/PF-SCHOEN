@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@font-face {
+
+    font-family: 'nanum';
+    src: url(../multimedia/Fonts/NanumPenScript-Regular.ttf);}
+
+
+
+
+/*RESET*/
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Pen Script',cursive;
+}
+/*NAVBAR*/
+.navbar{
+    background-color: #edb2dbe8 ;
+    background-attachment:fixed;
+}
+.ktn{
+    text-align: center;
+    font-size: 25px;
+    margin: 1px;
+    margin-left: 20px;
+}
+
+
+/*SIDEBAR*/
+.offcanvas{
+    background-color: #edb2dbec;
+}
+.navbar-toggler{
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+/*HOME*/
+a.btn{
+    background-color: black;
+    transition: 0.7s;
+    color:white;
+    border-radius: 15px;
+}
+a.btn:hover{
+    background-color: #edb2dbd0;
+    color:black;
+}
+/*IMAGE CAT*/
+.cat{
+    width: 1200vh;
+}
+/*CARD OF PRESENTATION IMAGE*/
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+}
+
+.item1{
+    grid-row: 1/ span 5;
+}
+.item{
+    grid-row: 1/ span 1;
+}
+
+.item2 img{
+    width: 300px;
+    height: 270px;
+}
+.item3{
+    width: 250px;
+    height: 120px;
+}
+.item4{
+    width: 150px;
+    height: 80px;
+}
+.item5{
+    width: 550px;
+    height: 200px;
+}
+
+/* SECION COURSE & MENÚ*/
+.cursos, .menú{
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.menú{
+    background-image: url("../multimedia/imagenindex (3).png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursos{
+    background-image: url("../multimedia/imagenindex (5).png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*END HOME*/
+
+/*ABOUT US*/
+
+
+/*END ABOUT US*/
+
+/*MENU*/
+.menu2{
+    background-image: url("../multimedia/menu.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e3ccf8;
+}
+
+.menu2 h3{ 
+    text-decoration: underline;
+    text-align: left;
+    font-size: xx-large;
+    color: #e3ccf8;
+    text-align: left;
+    margin: 25px;
+
+}
+
+.reserva1{
+    background-color: black;
+}
+
+a.discount{
+        font-size: xx-large;
+        text-decoration: none;
+        color:white;
+}
+
+/*END MENU*/
+
+
+/*COURSES*/
+
+.card-body{
+    background-color:#edb2dbe8;
+}
+
+.textareacourses{
+    resize: none;
+}
+
+.form-select{
+    background-color: black;
+    color:white;
+    font-size:large;
+    width: 1157px;
+    height: 50px;
+    margin-left: 60px;
+}
+
+/*END COURSES*/
+
+/*PRODUCTS*/
+
+/*END PRODUCTS*/
+
+/*CONTACT US*/
+iframe{
+    width: 1245px;
+    height: 340px;
+}
+
+input{
+    background-color: black;
+    transition: 0.7s;
+    color:white;
+    width: 140px;
+    border: 0;
+    border-radius:10px
+}
+input.boton:hover{
+    background-color: #edb2dbd0;
+    color: black;
+}
+
+/*END CONTACT US*/
+
+/*FOOTER*/
+footer{
+    background-color: #edb2dbd0;
+}
+.footer-redes{
+    justify-content:center;
+    width: 200px;
+}
+.footer-redes a{
+    margin: 5px;
+}
+
+.copyright{
+    width: auto;
+}
+/*MEDIAQUERIS*/
+
+/*COURSES
+@media screen and (min-width: 300px){
+    .form-select{
+        display: flex;
+        width: 2px;
+    }
+}
+@media screen and (max-width: 400px){
+    .form-select{
+        justify-content: center;
+        width:0px;
+    }
+}
+@media screen and (max-width: 820px){
+    .form-select{
+        display: flex;
+        width: 695px;
+    }
+}*/
+/*FOOTER
+@media screen and (max-width: 903px){
+    .footer-redes {
+        align-items: center;
+    }
+}*/
