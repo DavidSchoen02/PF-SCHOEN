@@ -286,24 +286,3 @@ footer {
 }
 
 /*MEDIAQUERIS*/
-
-@media (max-width: 768px) {
-    .container {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto;
-    }
-
-    .texto {
-        grid-column: 1 / 2;
-        grid-row: auto;
-    }
-
-    .imagen:nth-child(1),
-    .imagen:nth-child(2),
-    .imagen:nth-child(3),
-    .imagen:nth-child(4) {
-        grid-column: 1 / 2;
-        grid-row: auto;
-        top: 3px;
-    }
-}
