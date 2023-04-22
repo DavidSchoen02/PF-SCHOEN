@@ -149,14 +149,14 @@ a.btn:hover {
 }
 
 .menú {
-    background-image: url("../multimedia/imagenindex (3).png");
+    background-image: url("../multimedia/filacafeindex.png");
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cursos {
-    background-image: url("../multimedia/imagenindex (5).png");
+    background-image: url("../multimedia/filatornoindex.png");
     display: flex;
     justify-content: center;
     align-items: center;
