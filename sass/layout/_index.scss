@@ -1,0 +1,105 @@
+//HOME//
+a.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    transition: 0.7s;
+    color: white;
+    border-radius: 15px;
+}
+
+a.btn:hover {
+    background-color: #edb2dbd0;
+    color: black;
+}
+
+//IMAGE CAT//
+.cat {
+    min-width: 100%;
+}
+
+//CARD OF PRESENTATION IMAGE//
+
+
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr) ;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    height: 500px;
+    gap: 10px;
+    grid-template-areas:
+        "img-1"
+        "img-2" 
+        "img-3" 
+        "img-4";
+
+    * {
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+}
+
+
+
+.img-1 {
+    grid-area: img-1;
+    background-image: url("../multimedia/animegridindex.png");
+
+}
+
+.img-2 {
+    grid-area: img-2;
+    background-image: url("../multimedia/tornogridindex.png");
+
+}
+
+.img-3 {
+    grid-area: img-3;
+    background-image: url("../multimedia/pinturagridindex.png");
+
+}
+
+.img-4 {
+    grid-area: img-4;
+    background-image: url("../multimedia/tazagatogridindex.png");
+
+}
+
+
+
+//SECION COURSE & MENÚ//
+.cursos,
+.menú {
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.menú {
+    background-image: url("../multimedia/filacafeindex.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursos {
+    background-image: url("../multimedia/filatornoindex.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// Mediaqueris // 
+@media screen and (min-width:500px){
+.grilla{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "img-1 img-2"
+        "img-3 img-4";
+    
+    }
+}

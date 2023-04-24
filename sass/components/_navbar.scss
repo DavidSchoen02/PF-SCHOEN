@@ -1,0 +1,43 @@
+//NAVBAR//
+.navbar {
+    background-color: #edb2dbe8;
+    background-attachment: fixed;
+}
+
+.navbar li a{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.navbar li a:hover{
+    transform:scale(1.12);
+    transition: ease 0.3s;
+}
+
+.ktn {
+    text-align: center;
+    font-size: 25px;
+    margin: 1px;
+    margin-left: 20px;
+}
+
+
+//SIDEBAR//
+.offcanvas {
+    background-color: $primary;
+}
+
+.navbar-toggler {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus{
+    outline:none;
+    box-shadow:none;
+}

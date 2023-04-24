@@ -1,0 +1,19 @@
+//CONTACT US//
+iframe {
+    width: 1245px;
+    height: 340px;
+}
+
+input {
+    background-color: black;
+    transition: 0.7s;
+    color: white;
+    width: 140px;
+    border: 0;
+    border-radius: 10px
+}
+
+input.boton:hover {
+    background-color: #edb2dbd0;
+    color: black;
+}

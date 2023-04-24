@@ -1,0 +1,33 @@
+//PRODUCTS//
+.fondotodo{
+    background-color: rgb(139, 136, 136);
+}
+.alineate img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    margin-right: 25px;
+    margin-bottom:10px;
+}    
+// .alineate{
+//         margin-top:20px;
+//     }
+
+.carrouseles{
+    width: 80%;
+}
+
+@media screen and (min-width:900px){
+    .carrouseles{
+        width: 60%;
+        
+    }   
+
+}
+
+@media screen and (min-width:468px){
+    // .alineate{
+    //     margin-top:0;
+    // }
+}

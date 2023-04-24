@@ -1,0 +1,22 @@
+//BASE//
+@import "../sass/base/reset";
+@import "../sass/base/vars";
+
+// BOOTSTRAP //
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//AOS //
+@import "../node_modules/aos/src/sass/aos.scss";
+
+//COMPONENTS//
+@import "../sass/components/navbar";
+@import "../sass/components/footer";
+
+//LAYOUT//
+@import "../sass/layout/index";
+@import "../sass/layout/nosotros";
+@import "../sass/layout/menu";
+@import "../sass/layout/cursos";
+@import "../sass/layout/productos";
+@import "../sass/layout/contacto";
+
