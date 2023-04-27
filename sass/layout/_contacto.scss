@@ -17,3 +17,20 @@ input.boton:hover {
     background-color: #edb2dbd0;
     color: black;
 }
+
+.gradiente{
+    background: linear-gradient(45deg,rgb(238, 145, 222),rgb(255, 255, 255),rgb(252, 96, 229));
+    background-size: 300% 300%;
+    animation: color 10s ease-in-out infinite;
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}

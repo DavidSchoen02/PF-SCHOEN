@@ -26,3 +26,23 @@ a.discount {
     text-decoration: none;
     color: white;
 }
+.efectocontenedor{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    gap:5px;
+}
+.animaciondiscount{    
+    animation: mover 20s linear infinite;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@keyframes mover {
+    0%{
+        left:0;
+    }
+    100%{
+        left:100%;
+    }
+}

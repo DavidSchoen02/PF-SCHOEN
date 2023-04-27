@@ -11663,6 +11663,28 @@ a.discount {
   color: white;
 }
 
+.efectocontenedor {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  gap: 5px;
+}
+
+.animaciondiscount {
+  animation: mover 20s linear infinite;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@keyframes mover {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
 .allcards {
   border-radius: 20px;
 }
@@ -11682,6 +11704,11 @@ a.discount {
   width: 1157px;
   height: 50px;
   margin-left: 60px;
+}
+
+.form-select:hover {
+  background-color: rgba(237, 178, 219, 0.9098039216);
+  color: black;
 }
 
 .fondotodo {
@@ -11723,6 +11750,24 @@ input {
 input.boton:hover {
   background-color: rgba(237, 178, 219, 0.8156862745);
   color: black;
+}
+
+.gradiente {
+  background: linear-gradient(45deg, rgb(238, 145, 222), rgb(255, 255, 255), rgb(252, 96, 229));
+  background-size: 300% 300%;
+  animation: color 10s ease-in-out infinite;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
