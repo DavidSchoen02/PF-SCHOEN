@@ -11711,6 +11711,10 @@ a.discount {
   color: black;
 }
 
+.envio-pago {
+  background-color: rgb(198, 192, 192);
+}
+
 .fondotodo {
   background-color: rgb(139, 136, 136);
 }
