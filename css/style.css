@@ -11804,6 +11804,9 @@ input.boton:hover {
   justify-content: center;
   height: 100%;
 }
+.ubicacion .textareacourses, .telefono .textareacourses, .email .textareacourses {
+  resize: none;
+}
 
 @media only screen and (max-width: 600px) {
   .container {
