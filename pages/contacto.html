@@ -88,57 +88,62 @@
 
   <!-- MAIN -->
   <main>
+    
+    <div class="container mt-5 shadow">
+      <div class="row ">
+          <div class="col-md-4 gradiente p-5 text-black order-sm-first order-last">
+              <h2 class="text-center fw-bolder text-uppercase fs-1 mb-4 mt-1">Nuestros Datos</h2>
 
-    <h1 class="text-center mb-1 mt-1 fs-1 fw-bolder text-uppercase">Contacto</h1>
-
-
-
-    <section class="todocontacto">
-
-      <div class="dato-contacto text-center border border-1 mx-5 rounded gradiente">
-        <h2>konton.tienda@gmail.com</h2>
-        <h3>+54 01168715258</h3>
-        <h4>Artigas 5055 , Villa Ballester, Bs As, Argentina</h4>
+              <div class="d-flex mt-2 mb-5">
+                  <img class="ubicacion" src="../multimedia/iconos/localizacion.png" alt="ubicacion">
+                  <p class="mt-3 ms-3 fs-5">Ubicacion : Buenos Aires , Villa Ballester , Artigas 5055</p>
+              </div>
+              <div class="d-flex mt-2 mb-5">
+                  <img class="telefono" src="../multimedia/iconos/viber.png" alt="telefono">
+                  <p class="mt-4 ms-3 fs-5">Telefono :(+54) 1166751526</p>
+              </div>
+              <div class="d-flex mt-2 mb-2">
+                  <img class="email" src="../multimedia/iconos/sobre.png" alt="email">
+                  <p class="mt-4 ms-3 fs-5">Email : konton.tienda@gmail.com</p>
+              </div>
+          </div>
+          <div class="col-md-8 p-5 ">
+              <h2 class="text-center fw-bolder text-uppercase fs-1 mb-4 mt-1">Mandanos un Mensaje</h2>
+              <form class="row g-3 contactForm mt-4 fs-2">
+                  <div class="col-md-6">
+                    <label class="fs-4"for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" placeholder="Nombre" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="fs-4" for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" placeholder="Apellido"required>
+                  </div>
+                  <div class="col-12">
+                      <label class="fs-4" for="email" class="form-label">Email</label>
+                      <input type="text" class="form-control" placeholder="Email" required>
+                    </div>
+                  <div class="col-md-6">
+                    <label class="fs-4" for="textarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control textareacourses" class="form-control" id="textarea1" auto-complete="off" placeholder="Tu mensaje" rows="3"></textarea>
+                  </div>
+                  
+                  <div class="col-12 size-boton">
+                    <input type="submit" class="boton text-uppercase text-center fw-bolder mb-3 mt-3" value="enviar">
+                  </div>
+                </form>
+          </div>
       </div>
+  </div>
 
-      <h5 class="text-center fw-bolder  fs-1 mb-3 mt-3">Nuestro Local</h5>
 
-      <section class="mapa d-flex justify-content-center mb-2 mt-4">
-        <iframe
+      <h5 class="text-center fw-bolder text-uppercase fs-1 mb-4 mt-4">Nuestro Local</h5>
+
+      <section class="d-flex justify-content-center align-items-center">
+        <iframe class="mb-5"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13144.928928034005!2d-58.564309!3d-34.547675!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcba02e012bacd%3A0xfdd7376687bdbfe!2sArtigas%205505%2C%20Villa%20Ballester%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1679354791714!5m2!1ses!2sar"
           loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
       </section>
-
-      <h5 class="text-center fw-bolder text-uppercase fs-1 mb-3 mt-3">Mandanos un Mensaje</h5>
-
-      <form class="form-dato border border-1 mx-5 mb-4  rounded gradiente">
-
-        <div class="row mx-1 px-5 fs-4">
-          <div class="col">
-            <label for="name">Nombre:</label>
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
-          </div>
-          <div class="col fs-4">
-            <label for="name">Apellido:</label>
-            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
-          </div>
-        </div>
-
-        <div class="mb-3 px-5 mx-3 fs-4">
-          <label for="Input1" class="form-label">Email:</label>
-          <input type="email" class="form-control" id="Input1" placeholder="nombre@Ejemplo.com">
-        </div>
-        <div class="mb-3 px-5 mx-3 fs-4">
-          <label for="Textarea1" class="form-label">Mensaje:</label>
-          <textarea class="form-control textareacourses" id="Textarea1" auto-complete="off" placeholder="tu mensaje"
-            rows="3"></textarea>
-        </div>
-        <div class="size-boton  d-flex justify-content-center mt-4 mb-2">
-          <input type="submit" class="boton text-uppercase text-center fw-bolder" value="Enviar">
-        </div>
-      </form>
-    </section>
 
   </main>
 
