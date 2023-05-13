@@ -11575,10 +11575,10 @@ a.btn:hover {
 .grilla {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(1fr);
+  grid-template-rows: repeat(1fr 1fr);
   gap: 0px 0px;
   grid-auto-flow: row;
-  height: 500px;
+  height: 600px;
   gap: 10px;
   grid-template-areas: "img-1" "img-2" "img-3" "img-4";
 }
@@ -11781,15 +11781,14 @@ input.boton:hover {
   height: 36px;
   background: #fff;
   color: rgba(0, 0, 0, 0.8);
-  font-size: 14px;
   border-radius: 2px;
   box-shadow: none !important;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .contactForm .form-control {
   border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   padding: 0;
 }
 
@@ -11803,6 +11802,7 @@ input.boton:hover {
 
 .ubicacion, .telefono, .email {
   justify-content: center;
+  height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
