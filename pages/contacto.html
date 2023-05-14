@@ -15,14 +15,14 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://davidschoen02.github.io/PreEntrega3SCHOEN/pages/contacto.html">
+  <meta property="og:url" content="https://pf-schoen.vercel.app/pages/contacto.html">
   <meta property="og:title" content="Konton|Contacto">
   <meta property="og:description"
     content="Aqui podrás visualizar nuestros medios de contacto donde podras comprar productos hacer reservas y hacernos cualquier consulta">
   <meta property="og:image" href="../multimedia/cafeteria.png">
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://davidschoen02.github.io/PreEntrega3SCHOEN/pages/contacto.html">
+  <meta property="twitter:url" content="https://pf-schoen.vercel.app/pages/contacto.html">
   <meta property="twitter:title" content="Konton|Contacto">
   <meta property="twitter:description"
     content="Aqui podrás visualizar nuestros medios de contacto donde podras comprar productos hacer reservas y hacernos cualquier consulta">
@@ -90,8 +90,8 @@
   <main>
     
     <div class="container mt-5 shadow">
-      <div class="row ">
-          <div class="col-md-4 gradiente p-5 text-black order-sm-first order-last">
+      <div class="row">
+          <div class="col-md-4 gradiente p-5 text-black order-sm-first order-last d-flex flex-column justify-content-center">
               <h2 class="text-center fw-bolder text-uppercase fs-1 mb-4 mt-1">Nuestros Datos</h2>
 
               <div class="d-flex mt-2 mb-5">
@@ -100,11 +100,11 @@
               </div>
               <div class="d-flex mt-2 mb-5">
                   <img class="telefono" src="../multimedia/iconos/viber.png" alt="telefono">
-                  <p class="mt-4 ms-3 fs-5">Telefono :(+54) 1166751526</p>
+                  <p class="mt-4 ms-3 fs-5">Telefono:(+54) 1166751526</p>
               </div>
               <div class="d-flex mt-2 mb-2">
                   <img class="email" src="../multimedia/iconos/sobre.png" alt="email">
-                  <p class="mt-4 ms-3 fs-5">Email : konton.tienda@gmail.com</p>
+                  <p class="mt-4 ms-3 fs-5 w-auto text-truncate">Email:konton.tienda@gmail.com</p>
               </div>
           </div>
           <div class="col-md-8 p-5 ">
@@ -112,24 +112,30 @@
               <form class="row g-3 contactForm mt-4 fs-2">
                   <div class="col-md-6">
                     <label for="name" class="form-label fs-4">Nombre</label>
-                    <input type="text" class="form-control" placeholder="Nombre" required>
+                    <input type="text" class="form-control formElement" placeholder="Nombre" required>
                   </div>
                   <div class="col-md-6">
                     <label for="apellido" class="form-label fs-4">Apellido</label>
-                    <input type="text" class="form-control" placeholder="Apellido"required>
+                    <input type="text" class="form-control formElement" placeholder="Apellido"required>
                   </div>
                   <div class="col-12">
                       <label for="email" class="form-label fs-4">Email</label>
-                      <input type="text" class="form-control" placeholder="Email" required>
+                      <input type="text" class="form-control formElement" placeholder="Email" required>
                     </div>
                   <div class="col-md-6">
                     <label for="textarea1" class="form-label fs-4">Mensaje</label>
                     <textarea class="form-control textareacourses" class="form-control" id="textarea1" auto-complete="off" placeholder="Tu mensaje" rows="3"></textarea>
                   </div>
                   
-                  <div class="col-12 size-boton">
-                    <input type="submit" class="boton text-uppercase text-center fw-bolder mb-3 mt-3" value="enviar">
-                  </div>
+      
+                <div class="row mt-3">
+                  <button type="submit" class="btn btn-dark boton my-3 py-0 px-4">
+                    <span class="fw-bolder display-6">
+                    ENVIAR
+                    </span>
+                  </button>
+                </div>
+          
                 </form>
           </div>
       </div>

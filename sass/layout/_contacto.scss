@@ -1,80 +1,105 @@
+
+
 //CONTACT US//
 iframe {
-    width: 100%;
-    height: 400px;
+  width: 100%;
+  height: 400px;
 }
 
-input {
-    background-color: black;
-    transition: 0.7s;
-    color: white;
-    width: 140px;
-    border: 0;
-    border-radius: 10px
+input,
+.boton {
+  background-color: black;
+  transition: 0.7s;
+  color: white;
+  width: 140px;
+  border: 0;
+  border-radius: 10px;
 }
 
-input.boton:hover {
-    background-color: #edb2dbd0;
-    color: black;
+.boton {
+  min-width: fit-content;
+}
+
+.boton:hover {
+  background-color: #edb2dbd0;
+  color: black;
 }
 
 .gradiente {
-    background: linear-gradient(45deg, rgb(238, 145, 222), rgb(255, 255, 255), rgb(252, 96, 229));
-    background-size: 300% 300%;
-    animation: color 10s ease-in-out infinite;
+  background: linear-gradient(
+    45deg,
+    rgb(238, 145, 222),
+    rgb(255, 255, 255),
+    rgb(252, 96, 229)
+  );
+  background-size: 300% 300%;
+  animation: color 10s ease-in-out infinite;
 }
 
 @keyframes color {
-    0% {
-        background-position: 0 50%;
-    }
+  0% {
+    background-position: 0 50%;
+  }
 
-    50% {
-        background-position: 100% 50%;
-    }
+  50% {
+    background-position: 100% 50%;
+  }
 
-    100% {
-        background-position: 0 50%;
-    }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
-.container{
-    width: 1000px!important;
+.container {
+  width: 1000px !important;
 }
-
 
 .form-control {
-    height: 36px;
-    background: #fff;
-    color: rgba(0, 0, 0, 0.8);
-    border-radius: 2px;
-    box-shadow: none !important;
-    border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 36px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 2px;
+  box-shadow: none !important;
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 .contactForm .form-control {
-    border: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-    padding: 0;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
 }
 
 .form-label {
-    color: #000;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
-.ubicacion , .telefono , .email {
-justify-content: center;
-height: 100%;
 
-.textareacourses {
+.ubicacion,
+.telefono,
+.email {
+  justify-content: center;
+  height: $iconSizeBig;
+  width: $iconSizeBig;
+
+  .textareacourses {
     resize: none;
+  }
 }
 
-}
 @media only screen and (max-width: 600px) {
-    .container{
-        width: 100%!important;
-    }
+  .container {
+    width: 100% !important;
   }
+  .boton {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .ubicacion,
+  .telefono,
+  .email {
+    width: $iconSizeSmall;
+    height: $iconSizeSmall;
+  }
+}
