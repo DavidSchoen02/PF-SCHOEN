@@ -11644,7 +11644,7 @@ a.btn:hover {
   color: #e3ccf8;
 }
 
-.menu2 h2, .menu2 .h2, h3, .h3 {
+.menu2 h3, .menu2 .h3 {
   text-decoration: underline;
   text-align: left;
   font-size: xx-large;
